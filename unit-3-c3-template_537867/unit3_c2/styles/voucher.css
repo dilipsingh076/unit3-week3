@@ -1,0 +1,24 @@
+#navbar{
+    border:1px solid black;
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    width: 100%;
+
+}
+#wallet_balance{
+    margin-top: 20px;
+    font-size: 25px;
+}
+a{
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+#voucher_list{
+    border: 1px solid brown;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(auto,200px);
+    grid-gap: 30px;
+}

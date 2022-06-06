@@ -1,0 +1,31 @@
+#navbar{
+    border: 1px solid black;
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-between;
+}
+#form{
+    border: 1px dashed blue;
+    height: 300px;
+    width: 40%;
+    margin: auto;
+    margin-top: 30px;
+   
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+input{
+   margin-top: 15px;
+}
+button{
+    margin-top: 30px;
+    margin-left: 30%;
+    
+}
+button:hover{
+    cursor: pointer;
+    background-color: aqua;
+    
+}
